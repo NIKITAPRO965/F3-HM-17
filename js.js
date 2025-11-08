@@ -1,10 +1,7 @@
 // Створити розмітку з кнопкою та текстовим полем. За допомогою JavaScript отримати доступ до кнопки та текстового поля за їх ідентифікаторами та змінити текст на кнопці на значення текстового поля.
 const btnEl = document.querySelector(".btn");
-const inputEl = document.querySelector(".text");
-
-btnEl.addEventListener("click", () => {
-  btnEl.textContent = inputEl.value;
-});
+const titleEl = document.querySelector(".title1");
+btnEl.textContent = titleEl.textContent;
 
 
 
